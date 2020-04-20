@@ -20,8 +20,8 @@ Instructions for installing an Ubuntu Image on a secondary Hard Drive and access
 ## Switch to Ubuntu to create the bootable iso 
 1. On the deskotop create folder structure `iso/boot/grub`
 2. cp files with:
-  - `cp /usr/lib/grub/i386-pcf/* /home/USERNAME/Desktop/iso/boot/grub`
-  - `cp /usr/lib/grub/i386-pcf/* /home/USERNAME/Desktop/iso/boot/grub`
+  - `cp /usr/lib/grub/i386-pc/* /home/USERNAME/Desktop/iso/boot/grub`
+  - `cp /boot/grub/grub.cfg /home/USERNAME/Desktop/iso/boot/grub`
   - `cp /boot/grub/grub.cfg /home/USERNAME/Desktop/iso/boot/grub`
 3. edit the grub.cfg to remove the option to boot into windows to prevent crash with: `sudo nano /home/USERNAME/Destop/iso/boot/grub/grub.cfg`
 4. remove every line between ### BEGIN and ### End that references Windows
