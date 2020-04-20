@@ -37,3 +37,6 @@ Instructions for installing an Ubuntu Image on a secondary Hard Drive and access
 1. create a new vm
 2. add the vmdk as the hard drive
 3. add the boot.iso as the disk
+4. boot the vm
+5. hit `enter` to enter maintenance mode
+6. `sudo nano /etc/fstab` and comment `/boot/efi` with `#`
