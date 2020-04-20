@@ -27,7 +27,7 @@ Instructions for installing an Ubuntu Image on a secondary Hard Drive and access
 4. remove every line between ### BEGIN and ### End that references Windows
 5. make the iso with grub-mkrescue -o boot.iso /home/USERNAME/Desktop/iso
 6. install the required software (sudo apt install xorriso) && rerun the above command
-7. move the iso to an external thumb drive
+7. move the boot.iso under /home to an external thumb drive
 
 ## switch to windows
 1. create a new vm
