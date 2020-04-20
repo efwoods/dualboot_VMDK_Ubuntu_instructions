@@ -2,7 +2,7 @@
 Instructions for installing an Ubuntu Image on a secondary Hard Drive and accessing that image through a vmdk using virtualbox
 
 # Reference Videos:
-- [instructions for creating an Ubuntu VM](https://www.youtube.com/watch?v=u5QyjHIYwTQ)
+- [video for creating an Ubuntu VM](https://www.youtube.com/watch?v=u5QyjHIYwTQ)
 - [instructions for creating vmdk and boot iso](https://lifehacker.com/how-to-dual-boot-and-virtualize-the-same-partition-on-y-493223329)
 - [video of creating vmdk and boot iso](https://www.youtube.com/watch?time_continue=11&v=D9TePODkYME&feature=emb_title)
 
